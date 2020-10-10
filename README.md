@@ -1,2 +1,4 @@
 # Master the Coding Interview: Data Structures + Algorithms
-## Big O
+## 1. Big O
+## 2. Data Structures
+- Arrays
