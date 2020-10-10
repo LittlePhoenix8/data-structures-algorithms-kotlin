@@ -10,7 +10,7 @@ fun main() {
 }
 
 /**
- * Create a function that revwrses a string:
+ * Create a function that reverses a string:
  * "Hi My name is Andrei" should be:
  * "ierdnA si eman yM iH"
  * */
