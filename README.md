@@ -2,3 +2,4 @@
 ## 1. Big O
 ## 2. Data Structures
 - Arrays
+- Hash Table
