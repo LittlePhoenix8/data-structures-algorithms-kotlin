@@ -3,3 +3,6 @@
 ## 2. Data Structures
 - Arrays
 - Hash Table
+- Linked List
+    - Singly
+    - Doubly

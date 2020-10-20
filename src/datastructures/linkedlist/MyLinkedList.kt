@@ -6,10 +6,10 @@ fun main() {
     myLinkedList.append(16)
     myLinkedList.prepend(1)
     myLinkedList.insert(2, 99)
-    myLinkedList.insert(200, 200)
-    myLinkedList.printList()
+    myLinkedList.insert(4, 88)
     myLinkedList.remove(4)
     myLinkedList.printList()
+    myLinkedList.reverse().printList()
 }
 class MyLinkedList(value: Int) {
     private var head: MyLinkedNode = MyLinkedNode(value)
@@ -75,6 +75,24 @@ class MyLinkedList(value: Int) {
             }
         }
     } //O(n)
+
+    fun reverse(): MyLinkedList {
+        if (head.next == null) {
+            return this
+        }
+        var first = head
+        tail = head
+        var second = first.next
+        while (second != null) {
+            val temp = second.next
+            second.next = first
+            first = second
+            second = temp
+        }
+        head.next = null
+        head = first
+        return this
+    }
 
     private fun traverseToIndex(index: Int): MyLinkedNode? {
         var count = 0
