@@ -43,7 +43,7 @@ class MyLinkedList(value: Int) {
             }
             else -> {
                 val newNode = MyLinkedNode(value)
-                val leader = traverseToIndex(index)
+                val leader = traverseToIndex(index - 1)
                 val holdingPointer = leader?.next
                 leader?.next = newNode
                 newNode.next = holdingPointer
