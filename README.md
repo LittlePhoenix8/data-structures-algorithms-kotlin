@@ -6,3 +6,4 @@
 - Linked List
     - Singly
     - Doubly
+- Stacks & Queue
