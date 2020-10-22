@@ -7,3 +7,5 @@
     - Singly
     - Doubly
 - Stacks & Queue
+- Trees
+    - Binary Search Tree
