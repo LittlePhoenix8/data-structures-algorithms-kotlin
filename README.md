@@ -10,3 +10,5 @@
 - Trees
     - Binary Search Tree
 - Graphs
+## 3. Algorithms
+- Recursion
