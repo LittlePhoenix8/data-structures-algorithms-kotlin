@@ -12,3 +12,5 @@
 - Graphs
 ## 3. Algorithms
 - Recursion
+- Sorting
+    - Bubble Sort
