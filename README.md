@@ -14,3 +14,4 @@
 - Recursion
 - Sorting
     - Bubble Sort
+    - Selection Sort
