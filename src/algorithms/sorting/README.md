@@ -3,7 +3,7 @@ Kotlin uses the same algorithm as Java, that is "Dual-Pivot Quicksort" and "TimS
 
 Depending on how you create the array the sort algorithm will be different
 
-###TimSort
+##TimSort
 
 Tim sort is a hybrid stable sorting algorithm, derived from merge sort and intserion sort, designed to perform well on many kinds of real-world data.
 
@@ -25,7 +25,7 @@ public fun <T> Array<out T>.sort(): Unit {
 }
 ```
 
-###Dual Pivot Quick Sort
+##Dual Pivot Quick Sort
 
 Tim sort is a hybrid stable sorting algorithm, derived from merge sort and intserion sort, designed to perform well on many kinds of real-world data.
 
