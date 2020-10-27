@@ -5,7 +5,7 @@ Depending on how you create the array the sort algorithm will be different
 
 ##TimSort
 
-Tim sort is a hybrid stable sorting algorithm, derived from merge sort and intserion sort, designed to perform well on many kinds of real-world data.
+Tim sort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data.
 
 Best Case Perf. | Worst Case Perf. | Average Perf. | Space Complexity
 --- | --- | --- | ---
