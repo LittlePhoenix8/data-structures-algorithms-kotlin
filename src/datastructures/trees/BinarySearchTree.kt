@@ -25,12 +25,19 @@ fun main() {
 
     //BFS [9, 4, 20, 1, 6, 15, 170]
     println(tree.breathFirstSearch())
-
     val queue = ArrayList<Node?>()
     queue.add(tree.root)
     println(tree.breathFirstSearchR(queue, ArrayList()))
 
     //DFS [9, 4, 1, 6, 20, 15, 170]
+    //In Order [1, 4, 6. 9, 15, 20, 170]
+    println(tree.depthFirstSearchInOrder())
+
+    //Pre Order [9, 4, 1, 6, 20, 15, 170]
+    println(tree.depthFirstSearchPreOrder())
+
+    //Post Order [1, 6, 4, 15, 170, 20, 9]
+    println(tree.depthFirstSearchPostOrder())
 }
 
 fun traverse(node: Node): Node {
@@ -40,6 +47,7 @@ fun traverse(node: Node): Node {
     return tree
 }
 
+@Suppress("unused")
 class BinarySearchTree {
     var root: Node? = null
 
@@ -198,6 +206,18 @@ class BinarySearchTree {
         return list
     }
 
+    fun depthFirstSearchInOrder(): ArrayList<Int?> {
+        return traverseInOrder(root, ArrayList())
+    }
+
+    fun depthFirstSearchPreOrder(): ArrayList<Int?> {
+        return traversePreOrder(root, ArrayList())
+    }
+
+    fun depthFirstSearchPostOrder(): ArrayList<Int?> {
+        return traversePostOrder(root, ArrayList())
+    }
+
     //Recursion
     fun insertWithRecursion(value: Int) {
         val newNode = Node(value)
@@ -288,6 +308,39 @@ class BinarySearchTree {
             queue.add(currentNode.right)
         }
         return breathFirstSearchR(queue, list)
+    }
+
+    private fun traverseInOrder(node: Node?, list: ArrayList<Int?>): ArrayList<Int?> {
+        if (node?.left != null) {
+            traverseInOrder(node.left, list)
+        }
+        list.add(node?.value)
+        if (node?.right != null) {
+            traverseInOrder(node.right, list)
+        }
+        return list
+    }
+
+    private fun traversePreOrder(node: Node?, list: ArrayList<Int?>): ArrayList<Int?> {
+        list.add(node?.value)
+        if (node?.left != null) {
+            traversePreOrder(node.left, list)
+        }
+        if (node?.right != null) {
+            traversePreOrder(node.right, list)
+        }
+        return list
+    }
+
+    private fun traversePostOrder(node: Node?, list: ArrayList<Int?>): ArrayList<Int?> {
+        if (node?.left != null) {
+            traversePostOrder(node.left, list)
+        }
+        if (node?.right != null) {
+            traversePostOrder(node.right, list)
+        }
+        list.add(node?.value)
+        return list
     }
 }
 
