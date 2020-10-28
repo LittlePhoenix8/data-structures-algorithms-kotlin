@@ -18,3 +18,5 @@
     - Insertion Sort
     - Merge Sort
     - Quick Sort
+- Searching
+    - DFS + BFS

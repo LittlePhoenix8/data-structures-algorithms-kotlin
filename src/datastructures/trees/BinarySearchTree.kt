@@ -11,18 +11,37 @@ fun main() {
     tree.insert(170)
     tree.insert(15)
     tree.insert(1)
-    println(Gson().toJson(tree))
 
     println(tree.lookup(9)?.value)
     println(tree.lookup(20)?.value)
     println(tree.lookup(100)?.value)
 
-    tree.remove(170)
-    println(Gson().toJson(tree))
+    //tree.remove(170)
+    println(Gson().toJson(traverse(tree.root!!)))
+
+    //     9
+    //  4     20
+    //1  6  15  170
+
+    //BFS [9, 4, 20, 1, 6, 15, 170]
+    println(tree.breathFirstSearch())
+
+    val queue = ArrayList<Node?>()
+    queue.add(tree.root)
+    println(tree.breathFirstSearchR(queue, ArrayList()))
+
+    //DFS [9, 4, 1, 6, 20, 15, 170]
+}
+
+fun traverse(node: Node): Node {
+    val tree = Node(node.value)
+    tree.left = if (node.left == null) null else traverse(node.left!!)
+    tree.right = if (node.right == null) null else traverse(node.right!!)
+    return tree
 }
 
 class BinarySearchTree {
-    private var root: Node? = null
+    var root: Node? = null
 
     fun insert(value: Int) {
         val newNode = Node(value)
@@ -159,6 +178,26 @@ class BinarySearchTree {
         }
     }
 
+    fun breathFirstSearch(): ArrayList<Int?> {
+        var currentNode = root
+        val list = ArrayList<Int?>()
+        val queue = ArrayList<Node?>()
+        queue.add(currentNode)
+
+        while (queue.size > 0) {
+            currentNode = queue.removeFirst()
+            list.add(currentNode?.value)
+
+            if (currentNode?.left != null) {
+                queue.add(currentNode.left)
+            }
+            if (currentNode?.right != null) {
+                queue.add(currentNode.right)
+            }
+        }
+        return list
+    }
+
     //Recursion
     fun insertWithRecursion(value: Int) {
         val newNode = Node(value)
@@ -234,6 +273,21 @@ class BinarySearchTree {
 
     private fun insertLeft(newNode: Node, parentNode: Node) {
         parentNode.left = newNode
+    }
+
+    fun breathFirstSearchR(queue: ArrayList<Node?>, list: ArrayList<Int?>): ArrayList<Int?> {
+        if (queue.size == 0) {
+            return list
+        }
+        val currentNode = queue.removeFirst()
+        list.add(currentNode?.value)
+        if (currentNode?.left != null) {
+            queue.add(currentNode.left)
+        }
+        if (currentNode?.right != null) {
+            queue.add(currentNode.right)
+        }
+        return breathFirstSearchR(queue, list)
     }
 }
 
