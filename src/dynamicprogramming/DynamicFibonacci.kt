@@ -6,6 +6,7 @@ var calculation = 0
 fun main() {
     println("Slow: ${fibonacci(35)}")
     println("DP: ${fibonacciMaster(35)}")
+    println("DP2: ${fibonacciMaster2(35)}")
     println("we did $calculation calculations")
 }
 
@@ -29,4 +30,13 @@ fun fibonacciMaster(n: Int): Int {
             cacheFibonacci[n]!!
         }
     }
+} //O(n)
+
+//Bottom up
+fun fibonacciMaster2(n: Int): Int {
+    val answer = arrayListOf(0, 1)
+    for (i in 2..n) {
+        answer.add(answer[i - 2] + answer[i - 1])
+    }
+    return answer.last()
 } //O(n)
