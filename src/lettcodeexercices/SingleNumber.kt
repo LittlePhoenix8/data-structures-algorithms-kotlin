@@ -1,7 +1,7 @@
 package lettcodeexercices
 
 fun main() {
- val singleNumber = SingleNumber()
+    val singleNumber = SingleNumber()
     println(singleNumber.singleNumber(intArrayOf(2,2,1))) //1
     println(singleNumber.singleNumber(intArrayOf(4,1,2,1,2))) //4
     println(singleNumber.singleNumber(intArrayOf(1))) //1
