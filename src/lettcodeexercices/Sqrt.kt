@@ -1,6 +1,10 @@
 package lettcodeexercices
 
-fun main() {}
+fun main() {
+    val sqrt = Sqrt()
+    println(sqrt.mySqrt(4)) //2
+    println(sqrt.mySqrt(8)) //2
+}
 
 class Sqrt {
     fun mySqrt(x: Int): Int {
