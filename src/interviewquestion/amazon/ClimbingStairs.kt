@@ -1,4 +1,4 @@
-package lettcodeexercices
+package interviewquestion.amazon
 
 fun main() {
     val climbStairs = ClimbingStairs()
