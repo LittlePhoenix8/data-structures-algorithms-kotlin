@@ -1,7 +1,6 @@
-package interviewquestion.amazon
+package lettcodeexercices
 
 import com.google.gson.Gson
-import lettcodeexercices.ListNode
 
 fun main() {
     val node1 = ListNode(1)
