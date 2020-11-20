@@ -1,4 +1,4 @@
-package interviewquestion
+package interviewquestion.google
 
 /*
 * input collection of numbers
