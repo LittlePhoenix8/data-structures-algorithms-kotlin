@@ -1,4 +1,4 @@
-package interviewquestion.dailycodingproblem
+package interviewquestion.dailycodingproblem.january2021
 
 /**
  * This problem was asked by Microsoft.

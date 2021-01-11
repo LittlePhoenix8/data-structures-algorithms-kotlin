@@ -6,6 +6,7 @@ fun main() {
     println(maxProfit.maxProfit(intArrayOf(7,6,4,3,1))) //0
     println(maxProfit.maxProfit(intArrayOf(2,4,1))) //2
     println(maxProfit.maxProfit(intArrayOf(2, 1, 2, 1, 0, 1, 2))) //2
+    println(maxProfit.maxProfit(intArrayOf(9, 11, 8, 5, 7, 10))) //5
 }
 
 class MaxProfit {
