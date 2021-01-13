@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/longest-common-prefix/
+ * */
 fun main() {
     val longestCommonPrefix = LongestCommonPrefix()
     println(longestCommonPrefix.longestCommonPrefix(arrayOf("flower","flow","flight"))) //"fl"

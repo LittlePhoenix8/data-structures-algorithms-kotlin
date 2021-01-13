@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/two-sum/
+ * */
 fun main() {
     val twoSum = TwoSum()
     println(twoSum.twoSum(intArrayOf(2, 7, 11, 15), 9).joinToString(",")) //[0, 1]

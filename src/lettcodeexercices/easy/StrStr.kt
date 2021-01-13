@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/implement-strstr/
+ * */
 fun main() {
     val strStr = StrStr()
     println(strStr.strStr("hello", "ll")) //2

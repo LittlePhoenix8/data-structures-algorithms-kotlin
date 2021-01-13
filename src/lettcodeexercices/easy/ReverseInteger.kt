@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/reverse-integer/
+ * */
 fun main() {
     val reverseInteger = ReverseInteger()
     println(reverseInteger.reverse(123)) //321

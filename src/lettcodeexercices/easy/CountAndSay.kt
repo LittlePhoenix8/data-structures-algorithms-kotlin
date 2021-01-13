@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/count-and-say/
+ * */
 fun main() {
     val countAndSay = CountAndSay()
     println(countAndSay.countAndSay(4))

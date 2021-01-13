@@ -1,7 +1,11 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
 import com.google.gson.Gson
+import lettcodeexercices.ListNode
 
+/**
+ * https://leetcode.com/problems/merge-two-sorted-lists/
+ * */
 fun main() {
     val node1 = ListNode(1)
     val node2 = ListNode(2)

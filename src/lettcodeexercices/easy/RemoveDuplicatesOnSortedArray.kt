@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+ * */
 fun main() {
     val remove = RemoveDuplicatesOnSortedArray()
     println(remove.removeDuplicates(intArrayOf(1,1,2))) //[1, 2] = 2

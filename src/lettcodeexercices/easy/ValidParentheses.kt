@@ -1,7 +1,10 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
 import java.util.*
 
+/**
+ * https://leetcode.com/problems/valid-parentheses/
+ * */
 fun main() {
     val validParentheses = ValidParentheses()
     println(validParentheses.isValid("()")) //true
