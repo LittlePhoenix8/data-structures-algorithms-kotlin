@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/sqrtx/
+ * */
 fun main() {
     val sqrt = Sqrt()
     println(sqrt.mySqrt(4)) //2

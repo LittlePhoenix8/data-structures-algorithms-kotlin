@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/plus-one/
+ * */
 fun main() {
     val plusOne = PlusOne()
     println(plusOne.plusOne(intArrayOf(1, 2, 3)).joinToString(",")) //[1, 2, 4]

@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/merge-sorted-array/
+ * */
 fun main() {
     val mergeSortedArrays = MergeSortedArrays()
     val array1 = intArrayOf(1,2,3,0,0,0)

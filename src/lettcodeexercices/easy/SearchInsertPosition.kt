@@ -1,5 +1,8 @@
 package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/search-insert-position/
+ * */
 fun main() {
     val searchInsertPosition = SearchInsertPosition()
     println(searchInsertPosition.searchInsert(intArrayOf(1,3,5,6), 5)) //2

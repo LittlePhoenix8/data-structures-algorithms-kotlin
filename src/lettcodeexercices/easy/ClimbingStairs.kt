@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/climbing-stairs/
+ * */
 fun main() {
     val climbStairs = ClimbingStairs()
     println(climbStairs.climbStairs(2))//2
