@@ -1,7 +1,10 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
 import kotlin.math.max
 
+/**
+ * https://leetcode.com/problems/maximum-depth-of-binary-tree/
+ * */
 fun main() {
     val root = TreeNode(3)
     root.left = TreeNode(9)

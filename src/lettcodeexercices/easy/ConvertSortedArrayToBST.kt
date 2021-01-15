@@ -1,7 +1,10 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
 import com.google.gson.Gson
 
+/**
+ * https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+ * */
 fun main() {
     val convertSortedArrayToBST = ConvertSortedArrayToBST()
     val tree = convertSortedArrayToBST.sortedArrayToBST(intArrayOf(-10,-3,0,5,9))

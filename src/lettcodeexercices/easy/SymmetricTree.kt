@@ -1,7 +1,10 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
 import java.util.*
 
+/**
+ * https://leetcode.com/problems/symmetric-tree/
+ * */
 fun main() {
     val tree = TreeNode(1)
     val node1 = TreeNode(2)

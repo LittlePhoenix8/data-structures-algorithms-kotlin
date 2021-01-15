@@ -1,5 +1,7 @@
 package lettcodeexercices
 
+import lettcodeexercices.easy.TreeNode
+
 fun main() {
     val inOrder = BinaryTreeInorderTraversal()
 
