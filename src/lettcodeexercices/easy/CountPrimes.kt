@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/count-primes/
+ * */
 fun main() {
     val countPrimes = CountPrimes()
     println(countPrimes.countPrimes(10)) //4 = 2, 3, 5, 7
