@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/factorial-trailing-zeroes/
+ * */
 fun main() {
     val factorialTrailingZeroes = FactorialTrailingZeroes()
     println(factorialTrailingZeroes.trailingZeroes(3)) //0

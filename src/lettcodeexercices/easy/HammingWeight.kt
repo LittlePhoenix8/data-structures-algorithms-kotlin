@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/number-of-1-bits/
+ * */
 fun main() {
     val hammingWeight = HammingWeight()
     println(hammingWeight.hammingWeight(521)) //3

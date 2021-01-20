@@ -1,7 +1,10 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
 import java.util.*
 
+/**
+ * https://leetcode.com/problems/happy-number/
+ * */
 fun main() {
     val happyNumber = HappyNumber()
     println(happyNumber.isHappy(19)) //true

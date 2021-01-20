@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/valid-palindrome/
+ * */
 fun main() {
     val validPalindrome = ValidPalindrome()
     println(validPalindrome.isPalindrome("A man, a plan, a canal: Panama"))
@@ -12,14 +15,13 @@ class ValidPalindrome {
         }
         var i = 0
         var j = s.length - 1
-
         while(i < j) {
             if(!s[i].isLetterOrDigit()) {
                 i++
             } else if(!s[j].isLetterOrDigit()) {
                 j--
             } else {
-                if(s[i].toLowerCase() == s[j].toLowerCase()) {
+                if(s[i].equals(s[j], ignoreCase = true)) {
                     i++
                     j--
                 } else {

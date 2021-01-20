@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/pascals-triangle/
+ * */
 fun main() {
     val pascalTriangle = PascalTriangle()
     println(pascalTriangle.generate(5))

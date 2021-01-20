@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/single-number/
+ * */
 fun main() {
     val singleNumber = SingleNumber()
     println(singleNumber.singleNumber(intArrayOf(2,2,1))) //1
@@ -13,7 +16,6 @@ class SingleNumber {
             return nums.first()
         }
         val hashmap = HashMap<Int, Int>()
-
         for(num in nums) {
             if(hashmap.containsKey(num)) {
                 hashmap[num] = hashmap[num]!! + 1
@@ -21,13 +23,11 @@ class SingleNumber {
                 hashmap[num] = 1
             }
         }
-
         for(num in nums) {
             if(hashmap.containsKey(num) && hashmap[num]!! == 1) {
                 return num
             }
         }
-
         return 0
     }
 }

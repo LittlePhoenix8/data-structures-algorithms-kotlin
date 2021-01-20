@@ -1,5 +1,10 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+import lettcodeexercices.ListNode
+
+/**
+ * https://leetcode.com/problems/intersection-of-two-linked-lists/
+ * */
 fun main() {
     val nodeHeadA = ListNode(4)
     val nodeHeadA1 = ListNode(1)

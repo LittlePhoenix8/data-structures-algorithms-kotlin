@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+ * */
 fun main() {
     val maxProfit = MaxProfit()
     println(maxProfit.maxProfit(intArrayOf(7,1,5,3,6,4))) //5

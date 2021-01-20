@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/min-stack/
+ * */
 fun main() {
     val minStack = MinStack()
     minStack.push(-2)

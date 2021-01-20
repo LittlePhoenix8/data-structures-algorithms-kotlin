@@ -1,5 +1,10 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+import lettcodeexercices.ListNode
+
+/**
+ * https://leetcode.com/problems/linked-list-cycle/
+ * */
 fun main() {
     val head1 = ListNode(3)
     val head1Node1 = ListNode(2)
