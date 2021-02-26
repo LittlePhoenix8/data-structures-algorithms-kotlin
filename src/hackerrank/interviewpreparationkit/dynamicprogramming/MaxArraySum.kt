@@ -10,7 +10,6 @@ fun main() {
     println("${maxArraySum.maxSubsetSum(arrayOf(3, 7, 4, 6, 5))}, 13")
     println("${maxArraySum.maxSubsetSum(arrayOf(2, 1, 5, 8, 4))}, 11")
     println("${maxArraySum.maxSubsetSum(arrayOf(3, 5, -7, 8, 10))}, 15")
-    //println("${maxArraySum.maxSubsetSum(arrayOf())}, 0")
 }
 
 class MaxArraySum {
