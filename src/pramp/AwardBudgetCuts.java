@@ -2,6 +2,9 @@ package pramp;
 
 import java.util.Arrays;
 
+/**
+ * https://www.pramp.com/challenge/r1Kw0vwG6OhK9AEGAyWV
+ * */
 public class AwardBudgetCuts {
     static double findGrantsCap(double[] grantsArray, double newBudget) {
         int n = grantsArray.length;
