@@ -1,5 +1,8 @@
 package hackerrank.interviewpreparationkit.search
 
+/**
+ * https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem
+ * */
 fun main() {
     val iceCreamParlor = IceCreamParlor()
     iceCreamParlor.whatFlavors(arrayOf(1, 4, 5, 3, 2), 4) //1 4
