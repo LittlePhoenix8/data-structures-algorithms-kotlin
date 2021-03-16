@@ -2,6 +2,9 @@ package pramp;
 
 import java.util.*;
 
+/**
+ * https://www.pramp.com/challenge/W5EJq2Jld3t2ny9jyZXG
+ * */
 public class WordCountEngine {
     static String[][] wordCountEngine(String document) {
         Map<String, int[]> wordMap = new HashMap<>();

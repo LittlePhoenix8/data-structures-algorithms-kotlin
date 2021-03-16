@@ -2,6 +2,9 @@ package pramp
 
 import java.lang.StringBuilder
 
+/**
+ * https://www.pramp.com/challenge/W5EJq2Jld3t2ny9jyZXG
+ * */
 class WordCountEngineK {
     fun wordCountEngine(document: String): Array<Array<String>> {
         val wordMap = HashMap<String, Int>()
