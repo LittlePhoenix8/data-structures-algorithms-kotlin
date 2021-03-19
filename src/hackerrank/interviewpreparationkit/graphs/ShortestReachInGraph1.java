@@ -2,6 +2,9 @@ package hackerrank.interviewpreparationkit.graphs;
 
 import java.util.*;
 
+/**
+ * https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem
+ * */
 public class ShortestReachInGraph1 {
     public static class Graph {
         private final List<List<Integer>> adjacent;

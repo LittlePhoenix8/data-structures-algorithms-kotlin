@@ -5,6 +5,9 @@ import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
 import kotlin.collections.HashSet
 
+/**
+ * https://www.hackerrank.com/challenges/find-the-nearest-clone/problem
+ * */
 fun main() {
     val findNearestClone = FindNearestClone()
     println(findNearestClone.findShortest(4, arrayOf(1, 1, 4), arrayOf(2, 3, 2), arrayOf(1, 2, 1, 1), 1)) //1

@@ -3,6 +3,9 @@ package hackerrank.interviewpreparationkit.graphs
 import java.util.*
 import kotlin.collections.ArrayList
 
+/**
+ * https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem
+ * */
 fun main() {
     val graph = ShortestReachInGraph.Graph(6)
     val edges = arrayOf(arrayOf(1, 2), arrayOf(2, 3), arrayOf(3, 4), arrayOf(1, 5))

@@ -4,8 +4,6 @@ package hackerrank.interviewpreparationkit.dynamicprogramming
  * https://www.hackerrank.com/challenges/abbr/problem
  * */
 fun main() {
-    //println(abbreviation.abbreviation("", "")) //
-
     val abbreviation = Abbreviation()
     println("${abbreviation.abbreviation("AbcDE", "ABDE")}, YES") //YES
     println("${abbreviation.abbreviation("AbcDE", "AFDE")}, NO") //NO

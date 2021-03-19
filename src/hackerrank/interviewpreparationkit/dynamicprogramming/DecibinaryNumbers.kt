@@ -1,9 +1,5 @@
 package hackerrank.interviewpreparationkit.dynamicprogramming
 
-import java.util.*
-import kotlin.collections.HashMap
-import kotlin.math.pow
-
 /**
  * https://www.hackerrank.com/challenges/decibinary-numbers/problem
  * */
