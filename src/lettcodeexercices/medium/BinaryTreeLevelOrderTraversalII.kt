@@ -1,4 +1,6 @@
-package lettcodeexercices.easy
+package lettcodeexercices.medium
+
+import lettcodeexercices.easy.TreeNode
 
 /**
  * https://leetcode.com/problems/binary-tree-level-order-traversal-ii/

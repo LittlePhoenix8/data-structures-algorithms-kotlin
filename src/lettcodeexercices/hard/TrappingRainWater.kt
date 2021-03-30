@@ -1,4 +1,4 @@
-package lettcodeexercices.medium
+package lettcodeexercices.hard
 
 import java.util.*
 

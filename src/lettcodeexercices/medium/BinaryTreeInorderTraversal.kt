@@ -1,7 +1,10 @@
-package lettcodeexercices
+package lettcodeexercices.medium
 
 import lettcodeexercices.easy.TreeNode
 
+/**
+ * https://leetcode.com/problems/binary-tree-inorder-traversal/
+ * */
 fun main() {
     val inOrder = BinaryTreeInorderTraversal()
 

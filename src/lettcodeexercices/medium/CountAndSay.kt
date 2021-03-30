@@ -1,4 +1,4 @@
-package lettcodeexercices.easy
+package lettcodeexercices.medium
 
 /**
  * https://leetcode.com/problems/count-and-say/
