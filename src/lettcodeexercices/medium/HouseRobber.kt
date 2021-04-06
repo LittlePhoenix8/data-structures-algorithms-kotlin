@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.medium
 
+/**
+ * https://leetcode.com/problems/house-robber/
+ * */
 fun main() {
     val houseRobber = HouseRobber()
     println(houseRobber.rob(intArrayOf(1,2,3,1))) //4

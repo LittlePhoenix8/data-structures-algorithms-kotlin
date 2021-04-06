@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.medium
 
+/**
+ * https://leetcode.com/problems/sum-of-two-integers/
+ * */
 fun main() {
     println(SumOfTwoIntegers().getSum(1, 2))
 }

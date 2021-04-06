@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.medium
 
+/**
+ * https://leetcode.com/problems/rotate-array/
+ * */
 fun main() {
     val rotateArray = RotateArray()
     val array1 = intArrayOf(1,2,3,4,5,6,7)
