@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/contains-duplicate/
+ * */
 fun main() {
     val containsDuplicate = ContainsDuplicate()
     println(containsDuplicate.containsDuplicate(intArrayOf(1,2,3,1))) //true

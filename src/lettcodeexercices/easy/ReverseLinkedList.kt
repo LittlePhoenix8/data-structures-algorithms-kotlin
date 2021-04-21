@@ -1,7 +1,10 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
 import java.lang.StringBuilder
 
+/**
+ * https://leetcode.com/problems/reverse-linked-list/
+ * */
 fun main() {
     //[1,2,3,4,5]
     val node = ListNode(1)

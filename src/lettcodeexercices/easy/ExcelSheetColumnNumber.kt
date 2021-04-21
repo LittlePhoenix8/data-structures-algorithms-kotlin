@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/excel-sheet-column-number/
+ * */
 fun main() {
     val excelSheetColumnNumber = ExcelSheetColumnNumber()
     println(excelSheetColumnNumber.titleToNumber("A")) //1

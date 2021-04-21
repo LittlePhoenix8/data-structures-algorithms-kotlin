@@ -1,7 +1,10 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
 import kotlin.collections.HashMap
 
+/**
+ * https://leetcode.com/problems/first-unique-character-in-a-string/
+ * */
 fun main() {
     val firstUniqueCharacter = FirstUniqueCharacter()
     println(firstUniqueCharacter.firstUniqChar("leetcode")) //0

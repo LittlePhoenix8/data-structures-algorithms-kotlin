@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/reverse-string/
+ * */
 fun main() {
     val reverseStringInPlace = ReverseStringInPlace()
     reverseStringInPlace.reverseString(charArrayOf('h','e','l','l','o'))

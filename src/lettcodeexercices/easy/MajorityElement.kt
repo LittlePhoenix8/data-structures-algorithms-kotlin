@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/majority-element/
+ * */
 fun main() {
     val majorityElement = MajorityElement()
     println(majorityElement.majorityElement(intArrayOf(3,2,3))) // 3

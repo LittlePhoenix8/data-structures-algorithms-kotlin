@@ -1,5 +1,10 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+import lettcodeexercices.ListNode
+
+/**
+ * https://leetcode.com/problems/delete-node-in-a-linked-list/
+ * */
 fun main() {
     val node1 = ListNode(2)
     val node2 = ListNode(0)

@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/fizz-buzz/
+ * */
 fun main() {
     val fizzBuzz = FizzBuzz()
     println(fizzBuzz.fizzBuzz(15))

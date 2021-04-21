@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/power-of-three/
+ * */
 fun main() {
     val powerOfThree = PowerOfThree()
     println(powerOfThree.isPowerOfThree(27))

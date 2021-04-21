@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/move-zeroes/
+ * */
 fun main() {
     val numberOfZeroes = NumberOfZeroes()
     val array = intArrayOf(0,1,0,3,12)

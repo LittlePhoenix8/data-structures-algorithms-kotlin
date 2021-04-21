@@ -1,8 +1,12 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+import lettcodeexercices.ListNode
 import sun.misc.Queue
 import java.util.*
 
+/**
+ * https://leetcode.com/problems/palindrome-linked-list/
+ * */
 fun main() {
     val head1 = ListNode(1)
     val head1Node1 = ListNode(2)

@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/intersection-of-two-arrays-ii/
+ * */
 fun main() {
     val intersectionTwoArrays2 = IntersectionTwoArrays2()
     println(intersectionTwoArrays2.intersect(intArrayOf(1, 2, 2, 1), intArrayOf(2, 2)).joinToString(",")) //[2, 2]

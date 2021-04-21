@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/missing-number/
+ * */
 fun main() {
     val missingNumber = MissingNumber()
     println(missingNumber.missingNumber(intArrayOf(3,0,1))) //2

@@ -1,5 +1,8 @@
-package lettcodeexercices
+package lettcodeexercices.easy
 
+/**
+ * https://leetcode.com/problems/valid-anagram/
+ * */
 fun main() {
     val validAnagram = ValidAnagram()
     println(validAnagram.isAnagram("anagram", "nagaram")) //true
