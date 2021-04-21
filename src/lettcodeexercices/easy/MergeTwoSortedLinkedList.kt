@@ -1,7 +1,6 @@
 package lettcodeexercices.easy
 
 import com.google.gson.Gson
-import lettcodeexercices.ListNode
 
 /**
  * https://leetcode.com/problems/merge-two-sorted-lists/

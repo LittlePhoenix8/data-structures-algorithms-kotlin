@@ -1,6 +1,6 @@
 package interviewquestion.amazon
 
-import lettcodeexercices.ListNode
+import lettcodeexercices.easy.ListNode
 import java.lang.StringBuilder
 
 fun main() {

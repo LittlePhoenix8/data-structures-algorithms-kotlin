@@ -1,7 +1,5 @@
 package lettcodeexercices.easy
 
-import lettcodeexercices.ListNode
-
 /**
  * https://leetcode.com/problems/intersection-of-two-linked-lists/
  * */

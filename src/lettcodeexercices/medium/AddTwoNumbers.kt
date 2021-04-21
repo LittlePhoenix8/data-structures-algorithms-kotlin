@@ -1,6 +1,6 @@
 package lettcodeexercices.medium
 
-import lettcodeexercices.ListNode
+import lettcodeexercices.easy.ListNode
 
 /**
  * https://leetcode.com/problems/add-two-numbers/

@@ -1,6 +1,6 @@
 package lettcodeexercices.hard
 
-import lettcodeexercices.ListNode
+import lettcodeexercices.easy.ListNode
 import java.util.*
 
 /**

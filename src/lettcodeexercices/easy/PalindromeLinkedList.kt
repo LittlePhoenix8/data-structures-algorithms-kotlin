@@ -1,6 +1,5 @@
 package lettcodeexercices.easy
 
-import lettcodeexercices.ListNode
 import sun.misc.Queue
 import java.util.*
 
