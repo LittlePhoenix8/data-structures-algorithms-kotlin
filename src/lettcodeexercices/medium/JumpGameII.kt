@@ -11,6 +11,7 @@ fun main() {
     println(jumpGameII.jump(intArrayOf(2, 3, 0, 1, 4))) //2
     println(jumpGameII.jump(intArrayOf(0))) //0
     println(jumpGameII.jump(intArrayOf(5, 9, 3, 2, 1, 0, 2, 3, 3, 1, 0, 0))) //3
+    println(jumpGameII.jump(intArrayOf(3, 2, 1, 0, 4))) //2
 }
 
 class JumpGameII {
